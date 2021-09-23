@@ -1,0 +1,84 @@
+body {
+ background-color: #756e34;
+ background-image: url("grunge.jpg");
+ margin: 0;
+ padding: 0;
+ font-family: Verdana, sans-serif;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header img {
+  width: 70%;
+
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #74868c;
+
+}
+
+nav {
+  background-color: #504443;
+  padding: 20px;
+  text-align: center;
+
+}
+
+nav a {
+  color: white;
+  font-size: 170%;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f2e313;
+  color: #504443;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  padding: 40px
+  overflow: auto;
+}
+.dj {
+  width: 40%;
+  float: right;
+  margin-top: 10px;
+}
+
+.produce{
+  background-color: #504443;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  display: inline-block;
+
+}
+
+.button{
+  background-color: #74868c;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px
+  display: inline-block;
+}
