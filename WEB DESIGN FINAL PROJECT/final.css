@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("images/musicBackground.jpg");
+  background-color: #ddd;
+  background-color: #f5f5dc;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#wrap{
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+
+.a{
+  margin: 30px;
+}
+
+section{
+  background-color: white;
+  padding: 2%;
+}
+
+#form{
+  padding: 10px;
+  background-color: #fff;
+  overflow:auto;
+}
+
+#si{
+  align-content: center;
+}
+
+.home{
+  background-color: maroon;
+}
+
+.hiphop{
+background-color: yellow;
+}
+
+.jazz{
+  background-color: #42687c;
+}
+
+.lofi{
+  background-color: #88c5a1;
+}
+
+.hiphop{
+  background-color: #d28f33;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav{
+  background-color: #D3D3D3;
+  padding: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover{
+  background-color: maroon;
+  /* padding: 0px; */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a{
+  color: white;
+  /* font-size: 170%; */
+  padding: 20px;
+  text-decoration: none;
+}
+
+footer p{
+  font-size: 20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+/* code from the form.css  */
+.embed-container {
+  align-items: center;
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed {
+   position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

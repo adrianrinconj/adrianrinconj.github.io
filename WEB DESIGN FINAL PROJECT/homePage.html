@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Music Production</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="final.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3MTWHLFRB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3MTWHLFRB');
+</script>
+  </head>
+  <body>
+
+<div id="wrap">
+    <header>
+      <img src="images/musicBanner.png" alt="Music" class="center">
+    </header>
+
+    <nav>
+      <ul>
+        <li class ="home"><a href= "homePage.html"> Home </a></li>
+        <li class ="hiphop"><a href= "hiphop.html"> HipHop </a></li>
+        <li class ="jazz"><a href= "jazz.html"> Jazz </a></li>
+        <li class ="lofi"><a href= "lofi.html"> Lo-fi </a></li>
+      </ul>
+    </nav>
+
+    <h1 class="a">
+      Welcome to the music production page!
+    </h1>
+
+    <h3 class="a">
+      Here you will be able to search around the different
+      web pages and look for your genre. Fill out the form at the bottom of this page so we can see
+      what type of music we should be producing.
+    </h3>
+
+<!-- //this is the nivo slider -->
+    <section>
+      <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+              <img src="images/nujabes.jpg" data-thumb="images/nujabes.jpg" alt="" />
+              <!-- <a href="http://dev7studios.com" target = "_blank"> -->
+              <img src="images/jazz.jpg" data-thumb="images/jazz.jpg" alt=""/>
+              <img src="images/rock.jpg" data-thumb="images/rock.jpg" alt="" data-transition="slideInLeft" />
+              <img src="images/drake.jpg" data-thumb="images/drake.jpg" alt="" title="#htmlcaption" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+            No. 1 Artist in the World
+          </div>
+      </div>
+    </section>
+
+<!-- //these are the videos-->
+<header>
+  <div style="overflow: auto;">
+<div class='embed-container'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LcbTSLZl9hs?start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</header>
+
+<!-- //this is the form -->
+    <section id="form">
+      <fieldset>
+        <legend>Please fill out this form so we can collect data for music producers</legend>
+      <form method="post" action="congrats.html">
+
+        <p><label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"></p>
+
+        <p><label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"></p>
+
+        <p><label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"></p>
+
+        <p><label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"></p>
+
+        <p>What is your favorite Genre?</p>
+
+        <p>
+          <input type="radio" id="hip" name="website" value="Social"> <label for="social">HipHop</label><br>
+          <input type="radio" id="friend" name="website" value="Friend"> <label for="friend">Jazz</label><br>
+          <input type="radio" id="search" name="website" value="Search"> <label for="search">Classical</label><br>
+          <input type="radio" id="ad" name="website" value="Ad"> <label for="ad">R&B</label><br>
+          <input type="radio" id="other" name="website" value="Other"> <label for="other">Country</label><br>
+        </p>
+
+        <p>
+          Have you ever done music production before?
+        </p>
+
+          <p>
+          <input type="radio" id="yes" name="before" value="Yes"><label for="yes">Yes</label><br>
+          <input type="radio" id="no" name="before" value="No"><label for="yes">No</label><br>
+        </p>
+        <p>How many years have you been producing</p>
+
+    <select>
+    <option value="none">None</option>
+    <option value="one">1 Year</option>
+    <option value="two">2 Years</option>
+    <option value="three">3 Years</option>
+    <option value="four">4+ Years</option>
+    </select>
+
+    <p>Please put any further comments</p>
+
+    <p>
+    <textarea name="comments" id="comments" placeholder="Type in your comment"></textarea>
+    </p>
+
+    <p><input type="submit" value="Submit" class="button"><a href="congrats.html"></a></p>
+
+
+      </form>
+    </fieldset>
+    </section>
+
+<!-- javascript parts -->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</div>
+  </body>
+</html>
